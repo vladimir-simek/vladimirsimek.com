@@ -1,1 +1,0 @@
-"# vladimirsimek.com" 
