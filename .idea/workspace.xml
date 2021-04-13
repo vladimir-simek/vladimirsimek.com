@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="07a49090-c2f4-482a-871f-4ad142cd4c9d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/gradecalc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/search-mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/search.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/gradecalc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m/projects/search/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/calculator/grade/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/search/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1qvle64UAUqTufCAG3pnutfwk8H" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documents\Developing projects\WebStorm\LargeProjects\vladimirsimek.com\css" />
+      <recent name="D:\Documents\Developing projects\WebStorm\LargeProjects\vladimirsimek.com\js" />
+      <recent name="D:\Documents\Developing projects\WebStorm\LargeProjects\vladimirsimek.com\projects\calculator\grade" />
+      <recent name="D:\Documents\Developing projects\WebStorm\LargeProjects\vladimirsimek.com\m\projects\search" />
+      <recent name="D:\Documents\Developing projects\WebStorm\LargeProjects\vladimirsimek.com" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="07a49090-c2f4-482a-871f-4ad142cd4c9d" name="Default Changelist" comment="" />
+      <created>1617968036913</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617968036913</updated>
+      <workItem from="1617968038008" duration="9940000" />
+      <workItem from="1618312062282" duration="487000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
