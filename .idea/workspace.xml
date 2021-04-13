@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07a49090-c2f4-482a-871f-4ad142cd4c9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/m/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m/projects/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/calculator/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vladimirsimek.com.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vladimirsimek.com.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/landing.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/gradecalc.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/gradecalc.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/gradecalc.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/gradecalc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/m/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/m/projects/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/m/projects/search/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/m/projects/search/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/calculator/grade/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/calculator/grade/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/search/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/search/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/calculator/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/calculator/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/search/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +20,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -45,13 +43,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/m" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/projects" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents\Developing projects\WebStorm\LargeProjects\vladimirsimek.com\projects" />
       <recent name="D:\Documents\Developing projects\WebStorm\LargeProjects\vladimirsimek.com\m" />
       <recent name="D:\Documents\Developing projects\WebStorm\LargeProjects\vladimirsimek.com\m\projects" />
       <recent name="D:\Documents\Developing projects\WebStorm\LargeProjects\vladimirsimek.com\projects\calculator" />
@@ -73,7 +72,8 @@
       <option name="presentableId" value="Default" />
       <updated>1617968036913</updated>
       <workItem from="1617968038008" duration="9940000" />
-      <workItem from="1618312062282" duration="5929000" />
+      <workItem from="1618312062282" duration="7174000" />
+      <workItem from="1618332634796" duration="1426000" />
     </task>
     <servers />
   </component>
