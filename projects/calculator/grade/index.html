@@ -2,14 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>YES I AM</title>
+    <title>Calculator - Weighted Grade</title>
     <script src="../../../js/gradecalc.js"></script>
     <link rel="stylesheet" href="../../../css/gradecalc.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YX1V6FE2N5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-YX1V6FE2N5');
+    </script>
+    <script type="text/javascript" id="cookiebanner"
+            src="https://cdn.jsdelivr.net/gh/dobarkod/cookie-banner@1.2.2/dist/cookiebanner.min.js"></script>
 </head>
 <body>
 <div class="top">
-    <h1 class="topName">Am I failing my class?</h1>
+    <h1 class="topName">Calculator - Weighted Grade</h1>
 </div>
 
 <div class="centerDiv">
@@ -28,8 +42,10 @@
         <div class="generatorDiv">
             <div class="generator">
                 <div class="generatorTop">
-                    <input value="New Col" id="generatorButton" class="generatorButton" type="button" onclick="generateNewCol()">
-                    <input value="Calculate" id="calculatorButton" class="generatorButton" type="button" onclick="calculateGrade()">
+                    <input value="New Col" id="generatorButton" class="generatorButton" type="button"
+                           onclick="generateNewCol()">
+                    <input value="Calculate" id="calculatorButton" class="generatorButton" type="button"
+                           onclick="calculateGrade()">
                 </div>
                 <div id="sss" class="generatorBottom">
                     <a class="sda">Are you failing your class?</a>

@@ -148,3 +148,11 @@ input[type=number]{
     position: relative;
     top: 10px   ;
 }
+input{
+    outline: none;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+
+}

@@ -40,17 +40,23 @@ let generateNewCol = function () {
 }
 
 let calculateGrade = function () {
-    let inputGrade
-    let inputWeight
+    let inputGrade = 0
+    let inputWeight = 0
     for (let i = 0; i < num ; i++) {
         inputGrade = parseInt(document.getElementById("grade" + i).value)
         inputWeight = parseInt(document.getElementById("weight" + i).value)
         sum += inputGrade * inputWeight
         weightSum += inputWeight
 
+        /*if ((document.getElementById("grade" + i).value) !== null) {
+            inputGrade = parseInt(document.getElementById("grade" + i).value)
+            if ((document.getElementById("weight" + i).value) !== null) {
+                inputWeight = parseInt(document.getElementById("weight" + i).value)
+            }
+        }*/
     }
 
-    result = (sum / weightSum)
+    result = (sum / weightSum).toFixed(2)
 
     /*let output = document.createElement("a")*/
     let stb
