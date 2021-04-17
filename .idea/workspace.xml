@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07a49090-c2f4-482a-871f-4ad142cd4c9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/memory.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/memory.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/games/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/games/memory/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/search-mobile.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/search.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/search.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/m/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/m/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/m/projects/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/calculator/grade/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/calculator/grade/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/calculator/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/calculator/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/memory.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/memory.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/games/memory/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/games/memory/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +22,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="1qvle64UAUqTufCAG3pnutfwk8H" />
   <component name="ProjectLevelVcsManager">
@@ -80,7 +72,8 @@
       <workItem from="1618312062282" duration="7174000" />
       <workItem from="1618332634796" duration="2760000" />
       <workItem from="1618387932242" duration="33000" />
-      <workItem from="1618679767138" duration="2945000" />
+      <workItem from="1618679767138" duration="3212000" />
+      <workItem from="1618684933428" duration="3383000" />
     </task>
     <servers />
   </component>
