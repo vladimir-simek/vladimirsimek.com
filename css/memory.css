@@ -1,0 +1,35 @@
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    background-color: #18191a;
+    margin: 0;
+}
+
+.top {
+    display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    background-color: #242526;
+    border-bottom: 1px solid #383939;
+}
+
+.topName {
+    color: #b0b3b8;
+}
+
+.allInside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+
+.memoryGameCenteredDiv {
+    background-color: #242526;
+    width: 150px;
+    height: 150px;
+}
+
+.everything {
+    height: 100vh;
+}
