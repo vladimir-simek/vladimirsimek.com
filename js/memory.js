@@ -22,13 +22,18 @@ for (let i = 0; i < emojisListRawLength; i++) {
 
 emojisList = emojisList.sort(() => Math.random() - 0.5)
 
+document.onload = function() {
 
-
-for (let i = 0; i < emojisList.length; i++) {
-    let wtf = document.createTextNode("")
-    let innerDiv = document.createElement("div")
-    innerDiv.className = "box"
-    innerDiv.id = "box"
-    innerDiv.appendChild(wtf)
-    document.getElementById("memoryGameCenteredDiv").appendChild(innerDiv);
 }
+
+document.addEventListener('DOMContentLoaded', function () {
+    for (let i = 0; i < emojisList.length; i++) {
+        let wtf = document.createTextNode("")
+        let innerDiv = document.createElement("div")
+        innerDiv.className = "box"
+        innerDiv.id = "box"
+        innerDiv.innerHTML = emojisList[i]
+        innerDiv.appendChild(wtf)
+        document.getElementById("memoryGameCenteredDiv").appendChild(innerDiv);
+    }
+});

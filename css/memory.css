@@ -26,10 +26,20 @@ body {
 
 .memoryGameCenteredDiv {
     background-color: #242526;
-    width: 150px;
-    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 80%;
+
 }
 
 .everything {
     height: 100vh;
+}
+
+.box {
+    margin-top: 25px;
+    font-size: 45px;
+    flex: 1 0 21%;
+    display: flex;
+    justify-content: center;
 }
