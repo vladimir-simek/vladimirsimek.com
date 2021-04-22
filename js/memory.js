@@ -3,7 +3,6 @@ let emojis = [
 ];
 
 let emojisListRawLength = 8;
-let emojisListLength = emojisListRawLength*2;
 let emojisListRaw = []
 
 for (let i = 0; i < emojisListRawLength; i++) {
