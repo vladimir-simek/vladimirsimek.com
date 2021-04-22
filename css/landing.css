@@ -16,4 +16,17 @@ body {
 
 .topName {
     color: #b0b3b8;
+    text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+    .topName {
+        font-size:  30px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .topName {
+        font-size: 40px;
+    }
 }

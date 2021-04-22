@@ -1,22 +1,3 @@
-body {
-    font-family: 'Nanum Gothic', sans-serif;
-    background-color: #18191a;
-    margin: 0;
-}
-
-.top {
-    display: flex;
-    width: 100%;
-    align-content: center;
-    justify-content: center;
-    background-color: #242526;
-    border-bottom: 1px solid #383939;
-}
-
-.topName {
-    color: #b0b3b8;
-}
-
 .allInside {
     display: flex;
     justify-content: center;
@@ -68,17 +49,25 @@ body {
 
 /* Modal Content/Box */
 .modal-content {
-    background-color: #fefefe;
+    color: #b0b3b8;
+    background-color: #242526;
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
-    border: 1px solid #888;
+    border: 1px solid #383939;
+    border-radius: 40px;
     width: 80%; /* Could be more or less, depending on screen size */
+    display: flex;
+}
+
+.modal-content p {
+    width: 100%;
 }
 
 /* The Close Button */
 .close {
     color: #aaa;
-    float: right;
+    align-self: center;
+    justify-self: right;
     font-size: 28px;
     font-weight: bold;
 }
