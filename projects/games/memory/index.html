@@ -79,12 +79,30 @@
         let ids = id.split(" ")
 
         if (ids[1] === "boxOverlap") {
+            // open card
+
+            let getBox = document.getElementById(ids[1])
+
+            let num = ids[2].match(/\d+$/)
+
+
+            let numNum
+
+            if (num) {
+                numNum = num[0]
+            }
+
+            numNum = parseInt(numNum, 10)
+
+
+            console.log(numNum)
+
             opened++
         }
 
         if (opened === 2) {
             setTimeout(function(){
-                console.log(opened)
+                //hide cards
             }, 2000)
 
         }
