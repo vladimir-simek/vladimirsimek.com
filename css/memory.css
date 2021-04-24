@@ -80,3 +80,7 @@
 }
 
 /*Pop-Up end*/
+
+.boxOverlap {
+    z-index: initial;
+}
