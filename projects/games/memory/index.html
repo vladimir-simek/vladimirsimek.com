@@ -76,7 +76,23 @@
 
     document.addEventListener('click', function(e) {
         let id = e.target.id
-        console.log(id)
+        let ids = id.split(" ")
+
+        if (ids[1] === "boxOverlap") {
+            opened++
+        }
+
+        function sleep(ms) {
+            return new Promise(resolve => setTimeout(resolve, ms));
+        }
+
+        if (opened === 2) {
+            sleep(200)
+            setTimeout(function(){
+                console.log(opened)
+            }, 2000)
+
+        }
     }, false);
 </script>
 
