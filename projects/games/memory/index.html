@@ -69,35 +69,33 @@
 
     let opened = 0
     let fixedOpened = 0
-
     let questionMark = "❓"
-
+    let list = [null, null]
 
     document.addEventListener('click', function (e) {
         let id = e.target.id
         let ids = id.split(" ")
 
+
         if (ids[1] === "boxOverlap") {
             // open card
-
             let getBox
-
             getBox = document.getElementById(id)
 
+            if (list[0] === null) {
+                list[0] = ids[2]
+            } else if (list[1] === null) {
+                list[1] = ids[2]
+            }
+            console.log(list)
 
             let num = ids[2].match(/\d+$/)
-
-
             let numNum
-
             if (num) {
                 numNum = num[0]
             }
-
             numNum = parseInt(numNum, 10)
-
             getBox.innerHTML = emojisList[numNum]
-
             opened++
         }
 
