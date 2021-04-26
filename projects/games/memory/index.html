@@ -73,7 +73,9 @@
     let listID = [null, null]
     let listValue = [null, null]
 
+
     document.addEventListener('click', function (e) {
+        if (opened >= 2) return;
         let id = e.target.id
         let ids = id.split(" ")
 
@@ -103,7 +105,7 @@
                 console.log(listValue)
 
 
-                if (opened < 2){
+                if (opened < 2) {
                     getBox.innerHTML = emojisList[numNum]
                     opened++
                 }
@@ -114,7 +116,7 @@
                 console.log("s")
                 //hide cards
                 if (listValue[0] === listValue[1]) {
-                    fixedOpened+=2
+                    fixedOpened += 2
                 } else {
                     let element1 = document.getElementById(("box boxOverlap " + listID[0]))
                     let element2 = document.getElementById(("box boxOverlap " + listID[1]))
@@ -133,6 +135,7 @@
 
         }
     }, false);
+
 </script>
 
 </body>
