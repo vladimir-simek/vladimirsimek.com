@@ -82,5 +82,7 @@
 /*Pop-Up end*/
 
 .boxOverlap {
+    cursor: pointer;
     z-index: initial;
 }
+

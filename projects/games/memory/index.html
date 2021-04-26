@@ -105,21 +105,29 @@
             }
         }
         if (opened === 2) {
-            setTimeout(function () {
-                if (listValue[0] === listValue[1]) {
-                    fixedOpened += 2
-                } else {
-                    let element1 = document.getElementById(("box boxOverlap " + listID[0]))
-                    let element2 = document.getElementById(("box boxOverlap " + listID[1]))
-
-                    element1.innerHTML = questionMark
-                    element2.innerHTML = questionMark
-                }
+            if (listValue[0] === listValue[1]) {
+                fixedOpened += 2
                 opened = 0
                 listID[0] = null
                 listID[1] = null
                 listValue[0] = null
                 listValue[1] = null
+                return;
+            }
+            setTimeout(function () {
+
+                let element1 = document.getElementById(("box boxOverlap " + listID[0]))
+                let element2 = document.getElementById(("box boxOverlap " + listID[1]))
+
+                element1.innerHTML = questionMark
+                element2.innerHTML = questionMark
+                opened = 0
+                listID[0] = null
+                listID[1] = null
+                listValue[0] = null
+                listValue[1] = null
+
+
             }, 2000)
         }
     }, false);
