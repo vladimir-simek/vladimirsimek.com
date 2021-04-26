@@ -78,22 +78,16 @@
         if (opened >= 2) return;
         let id = e.target.id
         let ids = id.split(" ")
-
         if (listID[0] === null || listID[1] === null) {
-
-
             if (ids[1] === "boxOverlap") {
-                // open card
                 let getBox
                 getBox = document.getElementById(id)
-
                 let num = ids[2].match(/\d+$/)
                 let numNum
                 if (num) {
                     numNum = num[0]
                 }
                 numNum = parseInt(numNum, 10)
-
                 if (listID[0] === null) {
                     listID[0] = ids[2]
                     listValue[0] = emojisList[numNum]
@@ -103,8 +97,6 @@
                     listValue[1] = emojisList[numNum]
                 }
                 console.log(listValue)
-
-
                 if (opened < 2) {
                     getBox.innerHTML = emojisList[numNum]
                     opened++
@@ -113,8 +105,6 @@
         }
         if (opened === 2) {
             setTimeout(function () {
-                console.log("s")
-                //hide cards
                 if (listValue[0] === listValue[1]) {
                     fixedOpened += 2
                 } else {
@@ -124,18 +114,14 @@
                     element1.innerHTML = questionMark
                     element2.innerHTML = questionMark
                 }
-                //clear
                 opened = 0
                 listID[0] = null
                 listID[1] = null
                 listValue[0] = null
                 listValue[1] = null
-                console.log("d")
             }, 2000)
-
         }
     }, false);
-
 </script>
 
 </body>
